@@ -45,18 +45,29 @@ A responsive marketplace application built with React and Tailwind CSS. This app
 - **Add Item Page**: Navigate to `/add-item` to add new items.
 
 ## Screen views
-![image](https://github.com/user-attachments/assets/f36a2b59-e97e-41b3-9956-070e3be02be8)
+![image](https://github.com/user-attachments/assets/61b454fc-ea86-4a90-9744-7573bcc33058)
 
-![image](https://github.com/user-attachments/assets/faacfba0-66cc-47f5-9699-0a28aedc2c2d)
+![image](https://github.com/user-attachments/assets/e87606f6-2a41-4688-b24a-90e2ccf5890e)
+
+![image](https://github.com/user-attachments/assets/d545f656-8342-4bdc-9936-0e1b8abbdea3)
+
+Search:
+![image](https://github.com/user-attachments/assets/a3d1f63f-5e32-4f9a-8447-485c96fa4dcb)
 
 
+Price high to low:
+![image](https://github.com/user-attachments/assets/fad2c194-772a-478d-bbd1-906d234b4fc0)
 
 
+Price low to high:
+![image](https://github.com/user-attachments/assets/e384368b-ec7d-431a-8915-9e50037e372e)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Delivery:
+![image](https://github.com/user-attachments/assets/1de37186-1570-46af-9130-36dcd02f184a)
+
+Add item:
+![image](https://github.com/user-attachments/assets/a3893bec-a7ce-42a6-9292-831898cd7e95)
+
 
 ---
-
-Replace `<repository-url>` and `<project-directory>` with the actual values for your project. This README provides essential information without overwhelming detail.
