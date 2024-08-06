@@ -8,10 +8,9 @@ import BottomComponent from './BottomComponent';
 const Marketplace = () => {
   const [items, setItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
-  const [layout, setLayout] = useState('grid'); // Default layout
+  const [layout, setLayout] = useState('grid'); 
 
   useEffect(() => {
-    // Fetch data from the provided JSON link
     axios.get('https://run.mocky.io/v3/200998b7-f48d-4456-a639-0b5d2d275c12')
       .then(response => {
         setItems(response.data);
@@ -34,7 +33,6 @@ const Marketplace = () => {
     } else if (option === 'price-low-high') {
       sortedItems.sort((a, b) => a.price - b.price);
     } else if (option === 'same-day-delivery') {
-      // Filter items with non-null shipping_method and matching 'Same Day Delivery'
       sortedItems = items.filter(item => item.shipping_method?.toLowerCase() === 'same day shipping');
     }
     setFilteredItems(sortedItems);
