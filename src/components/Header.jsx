@@ -17,13 +17,13 @@ const Header = ({ onSearch, onSort }) => {
     <div className="fixed top-0 left-0 right-0 bg-blue-600 text-white p-4 flex flex-col md:flex-row justify-between items-center z-50">
       <h1 className="text-2xl font-bold mb-2 md:mb-0">Explore</h1>
       <div className="flex flex-col md:flex-row items-center w-full md:w-auto">
-        <div className="flex flex-grow mb-2 md:mb-0">
+        <div className="flex flex-grow mb-2 md:mb-0 items-center">
           <input
             type="text"
             placeholder="Search items..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="p-2 rounded-l-md border border-gray-300 w-full md:w-64"
+            className="p- rounded-l-md border text-black border-gray-300 w-full md:w-64"
           />
           <button
             onClick={handleSearch}
