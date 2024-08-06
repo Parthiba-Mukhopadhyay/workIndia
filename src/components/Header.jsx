@@ -17,7 +17,7 @@ const Header = ({ onSearch, onSort }) => {
     <div className="fixed top-0 left-0 right-0 bg-blue-600 text-white p-4 flex flex-col md:flex-row justify-between items-center z-50">
       <h1 className="text-2xl font-bold mb-2 md:mb-0">Explore</h1>
       <div className="flex flex-col md:flex-row items-center w-full md:w-auto">
-        <div className="flex flex-grow mb-2 md:mb-0 items-center">
+        <div className="flex flex-grow mb-2 md:mb-0">
           <input
             type="text"
             placeholder="Search items..."
