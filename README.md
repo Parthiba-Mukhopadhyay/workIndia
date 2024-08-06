@@ -1,5 +1,3 @@
-Here's a concise and effective README for your project:
-
 ---
 
 # Marketplace Application
@@ -46,9 +44,14 @@ A responsive marketplace application built with React and Tailwind CSS. This app
 - **Marketplace Page**: View and filter items.
 - **Add Item Page**: Navigate to `/add-item` to add new items.
 
-## Contributing
+## Screen views
+![image](https://github.com/user-attachments/assets/f36a2b59-e97e-41b3-9956-070e3be02be8)
 
-Feel free to submit issues and pull requests. 
+![image](https://github.com/user-attachments/assets/faacfba0-66cc-47f5-9699-0a28aedc2c2d)
+
+
+
+
 
 ## License
 
