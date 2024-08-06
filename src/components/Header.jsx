@@ -14,7 +14,7 @@ const Header = ({ onSearch, onSort }) => {
   };
 
   return (
-    <div className="bg-gray-400 text-black p-4 flex justify-between items-center">
+    <div className="fixed top-0 left-0 right-0 bg-blue-600 text-white p-4 flex justify-between items-center z-50">
       <h1 className="text-3xl font-bold">Explore</h1>
       <div className="flex items-center">
         <input
@@ -34,7 +34,7 @@ const Header = ({ onSearch, onSort }) => {
       <div className="relative">
         <button
           onClick={() => setDropdownVisible(!dropdownVisible)}
-          className="p-2 rounded-md border-2 border-gray-300 text-white-600"
+          className="p-2 rounded-md border border-gray-300 text-blue-600"
         >
           Filter
         </button>
